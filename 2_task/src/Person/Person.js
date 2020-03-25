@@ -3,10 +3,10 @@ import "./Person.css";
 
 
 
-const Person = () => {
+const Person = (props) => {
     return(
         <div className="card">
-            <p>Hello, My name is Mimi, and iam 30years old</p>
+            <p>Hello, My name is {props.name} ,and iam {props.age}</p>
 
         </div>
     );
