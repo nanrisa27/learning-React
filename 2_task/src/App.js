@@ -5,16 +5,26 @@ import './App.css';
 
 
 class App extends Component{
+  state = {
+    Persons: [
+      {name: "Mimi", age:32},
+      {name: "bee", age:32},
+      {name: "zel", age:32},
+      {name: "nje", age:32},
+      {name: "sozi", age:32},
+      
+    ]
+  };
   render () {
     return(
       <div>
         <h1>Hello World</h1>
         <p>Hello, World</p>
-        <Person name="Mimi" age="32"/>
-        <Person name="bee" age="30"/>
-        <Person name="nje" age="30"/>
-        <Person name="zel" age="31"/>
-        <Person name="Sozi" age="30"/>
+        <Person name={this.state.Persons[0].name} age={this.state.Persons[0].age}/>
+        <Person name={this.state.Persons[1].name} age={this.state.Persons[0].age}/>
+        <Person name={this.state.Persons[2].name} age={this.state.Persons[0].age}/>
+        <Person name={this.state.Persons[3].name} age={this.state.Persons[0].age}/>
+        <Person name={this.state.Persons[4].name} age={this.state.Persons[0].age}/>
       </div>
     );
     
