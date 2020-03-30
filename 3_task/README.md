@@ -9,4 +9,4 @@ simple idea on how to use a counter that shows increase, decrease and reset of n
 
 
 ## Screenshot
-![3_task screenshot](./learning-React/blob/master/3_task/public/Screenshot%202020-03-30%20at%2015.09.19.png)
+![3_task screenshot](https://github.com/nanrisa27/learning-React/blob/master/3_task/public/Screenshot%202020-03-30%20at%2015.09.19.png)
