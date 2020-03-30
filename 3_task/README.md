@@ -5,7 +5,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 this is development for my school work
 
 ## Simple app 
-simple idea on how to use a counter that shows increase, decrease and reset of numbers
+simple idea on how to create a counter that shows increase, decrease and reset of numbers
 
 
 ## Screenshot
