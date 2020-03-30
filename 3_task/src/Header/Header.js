@@ -4,10 +4,12 @@ import "./Header.css";
 
 
 const Header = () => {
+  const date = new Date();
+
   return(
     <div className = "header">
     <h1>Task 3 </h1>
-    <p className = "header-p">March 30.03.2020</p>
+    <p>{date.toDateString()}</p>
   </div>
       
   );

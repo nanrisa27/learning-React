@@ -9,6 +9,7 @@
     height: 100px;
     padding: 1rem;
 }
-.header-p{
-    float: right;
+.header p{
+   
+    margin-left: 25rem;
 }
