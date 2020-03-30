@@ -1,0 +1,14 @@
+.header{
+    background-color: rgb(93, 85, 85);
+    color: white;
+    display: block;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 1rem;
+}
+.header-p{
+    float: right;
+}

@@ -1,12 +1,13 @@
 import React from "react"
+import "./Header.css";
 
-import React from 'react'
 
 
 const Header = () => {
   return(
-    <div>
-    <h1>Tast 3 Total Likes <Date>30.03.2020</Date></h1>
+    <div className = "header">
+    <h1>Task 3 </h1>
+    <p className = "header-p">March 30.03.2020</p>
   </div>
       
   );
@@ -15,6 +16,8 @@ const Header = () => {
     
   
 };
+
+export default Header;
       
     
       
