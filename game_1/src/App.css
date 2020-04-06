@@ -1,8 +1,19 @@
-.App{
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+body{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 background: #FC354C;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #0ABFBC, #FC354C);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #0ABFBC, #FC354C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 
+}
+
+.btn {
+color: white;
+background-color: rgb(231, 127, 108);
+font-size: 1rem;
+margin: 2rem;
+
+}
+.App p{
+  font-size: 2rem;
 }
