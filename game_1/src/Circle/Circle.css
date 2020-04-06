@@ -1,7 +1,12 @@
-.circle{
+.Circle{
     display: inline-block;
     border-radius: 50%;
-    height: 3rem;
-    width: 4rem;
-    background-color: white
+    height: 10rem;
+    width: 10rem;
+    background-color: white;
+    margin: 2rem;
+}
+.Circle.active{
+    box-shadow: inset 0px opx 5px black;
+    background: black;
 }
