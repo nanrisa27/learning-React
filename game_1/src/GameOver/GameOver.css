@@ -1,0 +1,32 @@
+.gamers{
+    box-sizing: border-box;
+    width: 50%;
+    background-color: cornsilk;
+    color: black;
+    border-radius: 10px;
+    position: relative;
+    justify-items: center;
+    align-items: center;
+
+}
+
+.popup{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height:100% ;
+    width:100% ;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background: rgba(0, 0,0, 0.5);
+}
+
+.btn{
+   top: 5px;
+   right: 5px;
+   position: absolute;
+   background-color: seashell;
+   color: black;
+
+}

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import Circle from './Circle/Circle';
+import GameOver from './GameOver/GameOver';
 
 const getRndInteger = (min, max) => {
   return Math.floor(Math.random()* (max - min + 1)) + min;
@@ -11,6 +12,7 @@ class App extends Component {
   state = {
     score: 0,
     current: 0,
+    gameOver: false,
 
   };
   motion = 1500;
@@ -41,8 +43,11 @@ class App extends Component {
   }
   endtHandler = ()=>{
     clearTimeout (this.timer);
+    this.setState({
+      gameOver:true,
+    });
 
-  }
+  };
 
 
   render() {
@@ -59,9 +64,13 @@ class App extends Component {
           <Circle
           active = {this.state.current===3} buttonColor = "blue" click={this.clickHandler.bind(this,1)} />
         </main>
-
+      <div>
         <button className = 'btn' onClick= {this.startHandler}>Start</button>
         <button className = 'btn ' onClick= {this.startHandler}>Quit Game</button>
+        </div>
+    <div>
+    {this.state.gameOver && <GameOver score = {this.state.score}/> };
+    </div>
         
       </div>
     );
