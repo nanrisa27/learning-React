@@ -1,26 +1,46 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, {Component} from 'react';
 import './App.css';
+import Form from './Form/Form';
+import View from './View/View';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+class App extends Component{
+  state = {
+    firstname : '',
+    lastname : '',
+    phone: '',
+    message: '',
+
+  };
+
+  changeHandler= (event) => {
+    this.setState({
+      [event.target.name]: event.target.value
+    });
+  };
+
+  render(){
+    return(
+      
+      <div className = 'formInput'>
+
+       <Form onChange= {this.changeHandler}/>
+
+       <View firstname= {this.state.firstname} lastname={this.state.lastname} phone={this.state.phone} message={this.state.message}/>
+      
+
+
     </div>
-  );
+
+    );
+    
+  }
 }
+
+ 
+ 
+
+  
+
+
 
 export default App;
