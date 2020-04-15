@@ -7,8 +7,10 @@
     position: relative;
     justify-items: center;
     align-items: center;
+    display: grid;
 
 }
+
 
 .popup{
     position: fixed;
@@ -22,11 +24,13 @@
     background: rgba(0, 0,0, 0.5);
 }
 
-.btn{
+.btn2{
    top: 5px;
    right: 5px;
    position: absolute;
    background-color: seashell;
    color: black;
+   height: 2rem;
+   font-size: 1.5rem;
 
 }

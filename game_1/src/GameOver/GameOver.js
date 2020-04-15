@@ -16,7 +16,7 @@ const GameOver = (props) => {
         <h2>Oops Game over!</h2>
         <p> Your score is: {props.score}</p>
         </div>
-        <button className = 'btn' onClick = {closeHandler}>close</button>
+        <button className = 'btn2' onClick = {closeHandler}>close</button>
 
     </div>
     </div>
