@@ -1,0 +1,16 @@
+.postsList{
+    background: #f4f4f4;
+
+    border-radius: 10px;
+    box-shadow: 0 0 20px black;
+    border: 10px solid white;
+}
+
+.postItems{
+    display: grid;
+    align-items: flex-start;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+    margin: 1rem;
+    
+}
