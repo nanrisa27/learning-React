@@ -1,0 +1,16 @@
+body{
+    background-color: blanchedalmond;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+.btn{
+    
+    box-sizing: border-box;
+    border-radius: 1rem;
+    display: inline-block;
+    color: white;
+    margin: 1rem;
+    
+}
+
