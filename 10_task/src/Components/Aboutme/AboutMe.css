@@ -1,0 +1,21 @@
+p{
+    font-size: 25px;
+    line-height: 1.5rem;
+}
+.container{
+  background-color: thistle;
+  padding: 0 100px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  
+}
+.aboutme{
+    position: relative;
+    max-width: 800px;
+    padding: 50px;
+    background: rgba(225, 225, 225, 0.65);
+    box-shadow: 0 5px 15px;
+    border-radius: 25px;
+    margin-left: 2rem;
+}
